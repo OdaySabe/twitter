@@ -1,0 +1,62 @@
+body{
+    background-color: silver;
+    padding: 10px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.main{
+  margin: 10px;
+}
+.mainLable{
+    font-size: 50px;
+}
+.mainInput{
+    display: inline-block;
+    height: 55px;
+    width: 150vh;
+    font-size: 30px;
+    padding-left: 5px;
+}
+.mainbutton{
+    margin-left: 10px;
+    color: white;
+    background-color: #3366BB;
+    width: 35vh;
+    height: 61px;
+    font-size: 30px;
+    box-shadow: 5px 7px #888888;
+} 
+#postArea{ 
+        box-shadow: 1px 1px 3px;
+        margin: 10px;
+        border-radius: 5px;
+        padding: 10px;
+    }
+    .postContainer:active{
+        background-color: #2980b9
+}
+.comment{
+    margin-left: 10px;
+    margin: 10px;
+}
+.delete{
+    cursor: pointer;
+    color: #ecf0f1;
+    background-color: #e74c3c;
+    display: block;
+    padding: 5px;
+    border-radius: 3px;
+    font-size: 0.8em;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+.subcomment{
+    background-color: #3366BB;
+    color: white;
+    cursor: pointer;
+    margin-left: 10px;
+    border-radius: 5px;
+    padding: 5px;
+}
+.incomment{
+    padding: 5px;
+}
